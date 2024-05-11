@@ -42,6 +42,7 @@ export default function Home() {
 										if (todo.id === updateTodo.id) {
 											return updateTodo;
 										}
+										return todo;
 									}),
 								);
 							}}
